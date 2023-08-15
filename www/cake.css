@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/6220925.jpg);
+  background-size: cover;
+}
+a {
+  position: relative;
+  top: 100px;
+  padding-left: 51px;
+  color: rgba(33, 28, 28, 0.765);
+  text-decoration: none;
+  font-size: 21px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  top: -41px;
+  padding: 15px;
+  font-size: 27;
+  color: #212c2cd2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+h1:hover {
+  transform: translateX(5px);
+}
+.football {
+  width: 300px;
+  height: 200px;
+  border-radius: 991px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transition: all 0.3 ease;
+  transform: translate(-50%, 50%);
+}
+.football:hover {
+  border: 4px;
+  box-shadow: #212c2cd2;
+}
+h3 {
+  position: relative;
+  text-align: right;
+  top: 15px;
+  padding-top: 28px;
+  left: -41px;
+  color: #212c2cd2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  top: 15px;
+  padding-top: 28px;
+  color: #212c2cd2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h4 {
+  position: relative;
+  text-align: right;
+  top: 15px;
+  padding-top: 28px;
+  left: -71px;
+  color: #212c2cd2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
